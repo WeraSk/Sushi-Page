@@ -1,0 +1,73 @@
+body {
+  background: linear-gradient(
+    99.6deg,
+    rgb(112, 128, 152) 10.6%,
+    rgb(242, 227, 234) 32.9%,
+    rgb(234, 202, 213) 52.7%,
+    rgb(220, 227, 239) 72.8%,
+    rgb(185, 205, 227) 81.1%,
+    rgb(154, 180, 212) 102.4%
+  );
+}
+
+.greeting {
+  text-align: center;
+  font-size: 35px;
+  border-radius: 25px;
+  color: rgb(27, 172, 8);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+h2 {
+  text-align: center;
+  color: rgb(76, 24, 124);
+  padding: 20px;
+  border-radius: 25px;
+  font-size: x-large;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+img {
+  display: block;
+  margin: 0 auto;
+  padding: 15px 10px 15px 10px;
+  max-width: 200%;
+  border-radius: 10px 15px 10px 15px;
+  font-weight: 100;
+}
+button {
+  display: block;
+  margin: 0 auto;
+  color: rgb(116, 6, 6);
+  font-size: x-large;
+  background-color: blanchedalmond;
+  padding: 15px 10px;
+  border-radius: 25px 25px 25px 25px;
+  box-shadow: 5px 5px 10px;
+  transition: all 200ms ease;
+}
+
+button:hover {
+  opacity: 0.9;
+  cursor: pointer;
+  color: rgb(56, 187, 39);
+}
+p {
+  line-height: 1, 5;
+  margin: 25px 0 10px;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.autor {
+  background-color: rgb(253, 201, 201);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration-line: underline;
+}
+.learn-more {
+  display: block;
+  margin-top: 20px;
+  color: rgb(143, 2, 96);
+}
+.learn-more:hover {
+  color: black;
+  text-decoration: underline;
+}
