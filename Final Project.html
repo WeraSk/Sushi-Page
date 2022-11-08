@@ -12,9 +12,11 @@
    <div class="greeting">❤️Sushi is my favourite food❤️ </div>
       <hr />
       <h2>Especially Philadelphia Rolls</h2>
+      <span class="d-flex">
       <img
         src="sushi.jpg" class="img-fluid rounded shadow-sm3 p-2 border"
              />
+              </span>
       <p>
         Sushi is a Japanese dish featuring specially prepared rice and usually
         some type of fish or seafood, often raw, but sometimes cooked. And
@@ -43,12 +45,18 @@
       </p>
     </div>
     <style>
-      @media (max-width:25px){
-img {
-  width:25px;
+       @media (max-width: 900px) {
+  h1 {
+    font-size: 18px;
+    text-align: center;
+  }
+       }
+@media (min-width: 900px) {
+  h1 {
+    color: red;
+  }
 }
-       
-      }
+    
       body {
   background: linear-gradient(
     99.6deg,
